@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkeep_writing=self.webpackChunkkeep_writing||[]).push([[598],{3994:function(e){e.exports=JSON.parse('{"allTagsPath":"/keep.writing/blog/tags","slug":"/keep.writing/blog/tags/hello","name":"hello","count":2,"permalink":"/keep.writing/blog/tags/hello"}')}}]);

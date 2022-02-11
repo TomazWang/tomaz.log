@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkeep_writing=self.webpackChunkkeep_writing||[]).push([[434],{6197:function(e){e.exports=JSON.parse('{"allTagsPath":"/keep.writing/blog/tags","slug":"/keep.writing/blog/tags/facebook","name":"facebook","count":1,"permalink":"/keep.writing/blog/tags/facebook"}')}}]);
