@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Keep The Gears Turning',
+  tagline: 'keep working, keep thinking',
   url: 'https://blog.tomazwang.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'TomazWang.tw', // Usually your GitHub org/user name.
-  projectName: 'keep.writing', // Usually your repo name.
+  organizationName: 'TomazWang', // Usually your GitHub org/user name.
+  projectName: 'tomaz.log', // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Keep The Gears Turning',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Keep The Gears Turning',
           src: 'img/logo.svg',
         },
         items: [
@@ -78,10 +78,10 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
