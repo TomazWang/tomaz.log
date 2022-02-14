@@ -60,6 +60,13 @@ const config = {
           //   label: 'GitHub',
           //   position: 'right',
           // },
+          // Right
+          {
+            href: 'https://github.com/tomazwang/tomaz.log',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
         ],
       },
       footer: {
