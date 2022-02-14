@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Keep The Gears Turning',
   tagline: 'keep working, keep thinking',
-  url: 'https://blog.tomazwang.com/',
+  url: 'https://tomazwang.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
