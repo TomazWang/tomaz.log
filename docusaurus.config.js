@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Keep The Gears Turning',
+  title: 'Tomaz W.',
   tagline: 'keep working, keep thinking',
   url: 'https://tomazwang.com/',
   baseUrl: '/',
@@ -29,7 +29,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: undefined,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -42,9 +42,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Keep The Gears Turning',
+        title: 'Tomaz W.',
         logo: {
-          alt: 'Keep The Gears Turning',
+          alt: 'Tomaz W.',
           src: 'img/logo.png',
         },
         items: [
@@ -85,20 +85,20 @@ const config = {
             title: 'Find me here',
             items: [
               {
+                label: 'GitHub',
+                href: 'https://github.com/tomazwang',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/tomazwang/',
+              },
+              {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/users/4319678/tomaz-wang?tab=profile',
               },
               {
-                label: 'LinkedIn',
-                href: '.',
-              },
-              {
                 label: 'Twitter',
-                href: '.',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/tomazwang',
+                href: 'https://twitter.com/tomazwang',
               },
             ],
           },
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tomaz Wang. |  Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
