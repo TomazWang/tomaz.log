@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tomazwang.com/blog</id>
-    <title>Keep The Gears Turning Blog</title>
+    <title>Tomaz W. Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tomazwang.com/blog"/>
-    <subtitle>Keep The Gears Turning Blog</subtitle>
+    <subtitle>Tomaz W. Blog</subtitle>
     <icon>https://tomazwang.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
