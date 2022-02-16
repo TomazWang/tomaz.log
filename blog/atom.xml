@@ -7,6 +7,7 @@
     <link rel="alternate" href="https://tomazwang.com/blog"/>
     <subtitle>Tomaz W. Blog</subtitle>
     <icon>https://tomazwang.com/img/favicon.ico</icon>
+    <rights>Copyright © 2022 Tomaz W.</rights>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
