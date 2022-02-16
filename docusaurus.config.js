@@ -30,6 +30,12 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: undefined,
+
+          // generate JSON,RSS,ATOM
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Tomaz W.`,
+          }
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
