@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktomaz_log=self.webpackChunktomaz_log||[]).push([[700],{5688:function(a){a.exports=JSON.parse('{"label":"hola","permalink":"/blog/tags/hola","allTagsPath":"/blog/tags","count":1}')}}]);
