@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tomaz W.',
-  tagline: 'keep working, keep thinking',
+  tagline: 'Just casual coding',
   url: 'https://tomazwang.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -54,12 +54,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -136,16 +136,6 @@ const config = {
         defaultMode: 'dark',
         // disableSwitch: true,
         respectPrefersColorScheme: true,
-        switchConfig: {
-          darkIcon: '\u{2600}',
-          darkIconStyle: {
-            marginLeft: '1px',
-          },
-          lightIcon: '🌙',
-          lightIconStyle: {
-            marginRight: '1px',
-          },
-        },
       },
     }),
 };

@@ -1,8 +1,9 @@
 {
-  "name": "keep-writing",
+  "name": "tomaz.log",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "setup": "npm install --legacy-peer-deps",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -15,8 +16,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.15",
-    "@docusaurus/preset-classic": "2.0.0-beta.15",
+    "@docusaurus/core": "^2.0.0-beta.20",
+    "@docusaurus/preset-classic": "^2.0.0-beta.20",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.2.1",
@@ -24,7 +25,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.15",
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.20",
     "@tsconfig/docusaurus": "^1.0.4",
     "typescript": "^4.5.2"
   },
