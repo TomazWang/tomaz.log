@@ -29,7 +29,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: undefined,
+          editUrl: undefined,ter
 
           // generate JSON,RSS,ATOM
           feedOptions: {
@@ -40,6 +40,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: "G-N0CWNGLG8P"
+        }
       }),
     ],
   ],
