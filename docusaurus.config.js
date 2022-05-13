@@ -29,7 +29,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: undefined,ter
+          editUrl: undefined,
 
           // generate JSON,RSS,ATOM
           feedOptions: {
